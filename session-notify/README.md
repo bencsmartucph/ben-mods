@@ -2,6 +2,8 @@
 
 A Windows toast for each Claude Code session that needs you, saying which session and why, so you can run several at once and only switch when one is waiting.
 
+![A permission toast: session name, the pending command, repo, turn time and files edited](docs/toast.png)
+
 - **Bold line:** a coloured dot, the session's name and what it needs. Amber = permission, blue = a question or waiting on you, green = turn ended, red = failed.
 - **Second line:** the detail that matters: the tool and what it is about to do ("Bash · Push to origin"), the question, or the first line of Claude's reply.
 - **Small line:** repo, time since your last prompt, files edited.
