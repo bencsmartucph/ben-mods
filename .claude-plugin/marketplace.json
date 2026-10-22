@@ -1,0 +1,39 @@
+{
+  "name": "ben-mods",
+  "description": "Claude Code mods by bencsmartucph: an outside reviewer, an issue board, a readable terminal transcript and a few small tools",
+  "owner": {
+    "name": "bencsmartucph"
+  },
+  "plugins": [
+    {
+      "name": "outside",
+      "source": "./outside",
+      "description": "/outside [question]: an outside reviewer (Sonnet, no history) reads a digest of your prompts and the replies and answers"
+    },
+    {
+      "name": "backlog",
+      "source": "./backlog",
+      "description": "/backlog: the repo's open GitHub issues as a board or list, press one to read it, work on it"
+    },
+    {
+      "name": "readable",
+      "source": "./readable",
+      "description": "Terminal transcript in three levels: you bar, one-line tools, claude label, clickable file links"
+    },
+    {
+      "name": "dictation",
+      "source": "./dictation",
+      "description": "/fix: rewrites a dictated reply so Claude reads it as meant, using the conversation"
+    },
+    {
+      "name": "cache-dot",
+      "source": "./cache-dot",
+      "description": "Minutes left on the prompt cache as a dot after the footer's mode labels (grey, yellow, red cold); estimated, not the statusline's figures"
+    },
+    {
+      "name": "session-notify",
+      "source": "./session-notify",
+      "description": "Windows toast titled with the session's name, saying what it needs or how the turn ended"
+    }
+  ]
+}

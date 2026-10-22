@@ -1,0 +1,10 @@
+{
+  "name": "cache-dot",
+  "version": "0.2.1",
+  "description": "Minutes left on the prompt cache as a dot after the footer's mode labels: grey, yellow under 10 min, red cold. Estimated from main-loop requests.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods"
+}

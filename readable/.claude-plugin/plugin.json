@@ -1,0 +1,11 @@
+{
+  "name": "readable",
+  "version": "0.6.1",
+  "description": "Terminal transcript in three levels: your prompt in a tinted blue bar, tool calls as one dim line each (press to see output), Claude's reply at full contrast with its first sentence bold.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods",
+  "types": "./types/index.d.ts"
+}

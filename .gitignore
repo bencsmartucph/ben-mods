@@ -1,0 +1,4 @@
+.claude-plugin/types/
+*/.claude-plugin/types/
+__pycache__/
+node_modules/

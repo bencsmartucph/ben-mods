@@ -1,0 +1,10 @@
+{
+  "name": "outside",
+  "version": "0.1.0",
+  "description": "/outside [question]: an outside reviewer reads a digest of the conversation (your prompts and the reply text, no tool calls) and answers.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods"
+}

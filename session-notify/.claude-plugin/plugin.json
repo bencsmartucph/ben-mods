@@ -1,0 +1,10 @@
+{
+  "name": "session-notify",
+  "version": "0.3.1",
+  "description": "Windows toast, shown as \"Claude\", headed by the session's name: what it needs (permission, a question, waiting on you, turn ended after 3+ minutes, failed) and the line that matters, coloured by need, with repo, turn time and files edited. Asks stay until acted on and clear when you answer; click opens the desktop session.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods"
+}

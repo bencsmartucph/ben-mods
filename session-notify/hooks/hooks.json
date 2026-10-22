@@ -1,0 +1,97 @@
+{
+  "description": "Windows toast naming the session that needs you and why; cleared when you answer",
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "StopFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/session_notify.py"],
+            "timeout": 15,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "backlog",
+  "version": "0.2.1",
+  "description": "/backlog: this repo's open GitHub issues, a board on desktop and a list in the terminal, by surface then label; each links to GitHub, ↻ refreshes, \"work on it\" fills the prompt.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods",
+  "types": "./types/index.d.ts"
+}

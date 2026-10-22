@@ -1,0 +1,10 @@
+{
+  "name": "dictation",
+  "version": "0.1.0",
+  "description": "/fix <dictated text>: corrects misheard words and names using what this conversation is about, then puts the result in the prompt box to review.",
+  "author": {
+    "name": "bencsmartucph"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/bencsmartucph/ben-mods"
+}
