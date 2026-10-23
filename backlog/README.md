@@ -2,6 +2,8 @@
 
 `/backlog [label]` shows the current repo's open GitHub issues as a working board, so you can pick the next thing to do without leaving Claude Code.
 
+![/backlog in the terminal: five open issues of a demo repo, in surface columns then by label, each with its age and a link](docs/backlog.png)
+
 - On the desktop app it draws a board of cards; in the terminal, a list.
 - Issues labelled `desktop` or `terminal` get columns of their own; the rest are grouped by their first label, unlabelled last. `/backlog bug` shows only issues labelled `bug`.
 - Each issue links to GitHub. Press one to read its first lines, then **work on it** to put "Work on owner/repo#12: title" in the prompt box.

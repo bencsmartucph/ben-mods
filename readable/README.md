@@ -2,6 +2,8 @@
 
 A calmer Claude Code terminal transcript, in three levels: your prompt, Claude's reply, and the tool calls in between, each easy to tell apart at a glance.
 
+![A readable turn: the rule with time, length and tool count, the 'you' bar, two one-line Read calls, the 'claude' label, a code block with a language header and copy button](docs/readable.png)
+
 - **Your prompts** get a `▌ you` bar and a rule above them, labelled with the turn's start time, its length and how many tools and agents it used.
 - **Tool calls** are one dim line each, with a status dot. In Claude Code's fullscreen layout (`/tui fullscreen`) the whole line is clickable and shows the output; Read, Grep and Glob output shows inline.
 - **Claude's replies** get a `claude` label and a bold first sentence.

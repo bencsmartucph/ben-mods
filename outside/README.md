@@ -2,6 +2,8 @@
 
 `/outside [question]` asks a reviewer who has not been part of the conversation to read it and say what it sees.
 
+![/outside after two turns: Sonnet, with no history, says the session is on track, flags two figures stated without evidence and a decision taken by inference, and suggests the next step](docs/outside.png)
+
 Long sessions drift. You and Claude share the same context, so you tend to miss the same things: a question that never got answered, a decision taken without saying why, a loop around the same problem. `/outside` builds a digest of the session from your prompts and Claude's reply text (tool calls and their output left out, newest turns kept up to 60,000 characters) and sends it to Sonnet with no other history. The answer comes back in about 150 words.
 
 - `/outside` asks the default question: what is this session trying to do, is it getting there, what looks off, and what would you do next?

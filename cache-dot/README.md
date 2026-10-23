@@ -2,6 +2,8 @@
 
 A small dot in the prompt footer, after the mode labels, that tells you how long the prompt cache has left: `◕ 47m`.
 
+![The prompt footer with the cache dot: 59 minutes left on the prompt cache and 4% of the context window used](docs/cache-dot.png)
+
 The prompt cache makes the next message cheaper and faster, but only while it is warm. If it has gone cold, the next message pays to write it again. The dot answers "will this message hit the cache?" before you send it.
 
 - Grey with time to spare, yellow under 10 minutes (under 2 minutes on a 5-minute cache), red `○ cold` once it has expired. The glyph drains as time passes.
